@@ -1,9 +1,10 @@
+#Author: Jared Kuntz
+#Project: The Odin Project: Ruby Project
+
 class Book
-# write your code here
   attr_accessor :title  
 
-
-
+  #Overloaded assignment operator which properly capitalizes titles upon assignment.
   def title=(title)
     little_words = ['and', 'over', 'the', 'in', 'of', 'a', 'an']
     words = title.split(' ')
